@@ -1,0 +1,12 @@
+D:\workspace\github\DesignPattens\DesignPattens\bin\Debug\net6.0\DesignPattens.deps.json
+D:\workspace\github\DesignPattens\DesignPattens\bin\Debug\net6.0\DesignPattens.dll
+D:\workspace\github\DesignPattens\DesignPattens\bin\Debug\net6.0\DesignPattens.pdb
+D:\workspace\github\DesignPattens\DesignPattens\obj\Debug\net6.0\DesignPattens.csproj.AssemblyReference.cache
+D:\workspace\github\DesignPattens\DesignPattens\obj\Debug\net6.0\DesignPattens.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\github\DesignPattens\DesignPattens\obj\Debug\net6.0\DesignPattens.AssemblyInfoInputs.cache
+D:\workspace\github\DesignPattens\DesignPattens\obj\Debug\net6.0\DesignPattens.AssemblyInfo.cs
+D:\workspace\github\DesignPattens\DesignPattens\obj\Debug\net6.0\DesignPattens.csproj.CoreCompileInputs.cache
+D:\workspace\github\DesignPattens\DesignPattens\obj\Debug\net6.0\DesignPattens.dll
+D:\workspace\github\DesignPattens\DesignPattens\obj\Debug\net6.0\refint\DesignPattens.dll
+D:\workspace\github\DesignPattens\DesignPattens\obj\Debug\net6.0\DesignPattens.pdb
+D:\workspace\github\DesignPattens\DesignPattens\obj\Debug\net6.0\ref\DesignPattens.dll

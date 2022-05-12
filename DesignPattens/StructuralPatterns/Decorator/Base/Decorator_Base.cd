@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="核心：Decorator(装饰器)需要指向Component！ 装饰器通过构造函数将IComponent 传入。&#xD;&#xA;&#xD;&#xA;装饰器模式：动态地给一个对象添加一些额外的职责。就增加功能来说，Decorator模式相比生成子类更为灵活。&#xD;&#xA;&#xD;&#xA;     &#xD;&#xA;     优点：&#xD;&#xA;     比静态继承更灵活：装饰模式提供了更加灵活地向对象添加职责的方式。可以用添加和分离的方法，用装饰在运行增加和删除职责。&#xD;&#xA;     相比之下，继承会产生许多新类，并增加系统的复杂度。&#xD;&#xA;     开闭原则，即插即用，方便扩展&#xD;&#xA;     &#xD;&#xA;     处理那些可撤销的职责&#xD;&#xA;     &#xD;&#xA;     运用装饰在运行时增加&#xD;&#xA;&#xD;&#xA;     避免在层次结构高层的类有太多的特征：&#xD;&#xA;     不在一个复杂的可定制的类中支持所有可预见的特性，而&#xD;&#xA;     &#xD;&#xA;     缺点：&#xD;&#xA;     有许多小对象，对不了解系统的人来说，理解较为困难，难排错&#xD;&#xA;     &#xD;&#xA;     实现时注意事项：&#xD;&#xA;     接口的一致性&#xD;&#xA;     抽象层可以省略&#xD;&#xA;     保持Component简单性">
+    <Position X="9.781" Y="0.563" Height="5.729" Width="4.044" />
+  </Comment>
+  <Class Name="DesignPattens.StructuralPatterns.Decorator.ConcreteComponent">
+    <Position X="1.25" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Decorator\Base\ConcreteComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPattens.Decorator">
+    <Position X="4.5" Y="2.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAA=</HashCode>
+      <FileName>StructuralPatterns\Decorator\Base\Decorator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="component" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPattens.ConcreteDecoratorA">
+    <Position X="7.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Decorator\Base\ConcreteDecoratorA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPattens.ConcreteDecoratorB">
+    <Position X="3.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Decorator\Base\ConcreteDecoratorB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPattens.IComponent">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>StructuralPatterns\Decorator\Base\IComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
